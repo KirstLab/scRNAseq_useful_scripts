@@ -12,5 +12,8 @@ For each analysis, a folder is created with the name of the analysis. Inside eac
 
 ### Converting data from Monocle3 object to Seurat object
 
-The folder for this analysis is "monocle3_to_seurat".
+The folder for this analysis is called "monocle3_to_seurat".
 
+### Trajectory inference with Slingshot
+
+The folder for this analysis is called "trajectory_inference_using_slingshot".
