@@ -4,7 +4,6 @@ set.seed(1407)
 # Load required packages
 require(Seurat)
 require(monocle3)
-require(vroom)
 require(tidyverse)
 
 ################################
