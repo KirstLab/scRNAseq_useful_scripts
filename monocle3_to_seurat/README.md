@@ -15,3 +15,9 @@ To run the script, first set the name of the Monocle3 object file and the name o
 ```bash
 Rscript monocle3_to_seurat.R
 ```
+
+Note that the script requires the following R packages:
+
+* Seurat - <https://satijalab.org/seurat/>
+* monocle3 - <https://cole-trapnell-lab.github.io/monocle3/>
+* tidyverse - <https://www.tidyverse.org/>
