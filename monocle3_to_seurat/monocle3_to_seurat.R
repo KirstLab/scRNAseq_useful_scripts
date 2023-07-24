@@ -48,6 +48,9 @@ rna_data <- monocle3::normalized_counts(my.cds)
 rna_counts_assay <- CreateAssayObject(counts = rna_counts)
 rna_counts_assay@key <- "RNA_"
 adata@assays$RNA <- rna_counts_assay
+
+# Check for "_" since Seurat doesn't accept it.
+rownames(rna_data) <- sub(pattern = "_", "-", rownames(rna_data))
 adata@assays$RNA@data <- rna_data
 
 # Add the cell embeddings for UMAP
