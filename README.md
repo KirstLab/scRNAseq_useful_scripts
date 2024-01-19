@@ -17,3 +17,7 @@ The folder for this analysis is called "monocle3_to_seurat".
 ### Trajectory inference with Slingshot
 
 The folder for this analysis is called "trajectory_inference_using_slingshot".
+
+### Using COPILOT to analyze data from Cell Ranger
+
+The folder for this analysis is called "COPILOT_using_CellRanger_output".
