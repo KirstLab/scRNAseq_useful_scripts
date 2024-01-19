@@ -18,7 +18,7 @@ If using this script, please cite the original COPILOT papers:
 First, download the script and the folder "COPILOT-master" from this repository. Then, run the script as follows:
 
 ```console
-Rscript copilot_cell_ranger.R --sample_name <name of your sample> --species <name of the species> --mito_string <string to identify the mitochondrial genes> --mito_threshold <threshold to identify cells with high mitochondrial content> --cloro_string <string to identify the chloroplast genes> --iterative_filtering <TRUE or FALSE> <path to the folder with the Cell Ranger output>
+Rscript copilot_cell_ranger.R --sample_name <name of your sample> --species <name of the species> --mito_string <string to identify the mitochondrial genes> --mito_threshold <threshold to identify cells with high mitochondrial content> --cloro_string <string to identify the chloroplast genes> --iterative_filtering <TRUE or FALSE> <path to the folder with the RAW COUNTS from Cell Ranger output>
 ```
 
 Note that the script was tested using R 4.2, and requires the following R packages:
