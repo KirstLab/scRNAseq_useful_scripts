@@ -9,7 +9,7 @@ require(future)
 require(batchelor)
 require(harmony)
 
-project_name <- "M. truncatula root atlas" # Set the project name
+project_name <- "My_project" # Set the project name
 
 # Set the number of cores that can be used for parallel processing
 future::plan("multisession", workers = 6)
